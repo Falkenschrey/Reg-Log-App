@@ -14,10 +14,10 @@ public class User {
     private String email;
     private Date birthdate;
     private Timestamp registrationDate;
-    private String password;
     /**
      * Hashed text, no plain text password
      */
+    private String password;
     private Sex sex;
 
     public int getId() {
